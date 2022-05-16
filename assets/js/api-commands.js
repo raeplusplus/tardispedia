@@ -19,10 +19,6 @@ class TheDoctor{
         this.yearsActive = yearsActive;
         this.firstApperance = firstApperance;
     }
-    randomChosenDoc(){
-        let randomDoc = Math.random();//I need 14 numbers, so 0 - 13
-        return randomDoc;
-    };
     randomChosenDocEpisode(){
         let randomEpisode = Math.random(); //just need 3 numbers/episodes, so 0 - 2
         return randomEpisode;
@@ -33,19 +29,55 @@ class TheDoctor{
     };
 }
 
-let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-1966","An Unearthly Child")
-let secondDoc = new TheDoctor("The Second Doctor", "Patrick Troughton", "Peter Diamond, Tom Laird", "1966-1969", "The Tenth Planet")
-let thirdDoc
-let fourthDoc
-let fifthDoc
-let sixthDoc
-let seventhDoc
-let eighthDoc
-let ninthDoc
-let tenthDoc
-let eleventhDoc
-let twelfthDoc
-let thirteenthDoc
+let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-1966","An Unearthly Child");
+let secondDoc = new TheDoctor("The Second Doctor", "Patrick Troughton", "Peter Diamond, Tom Laird", "1966-1969", "The Tenth Planet");
+let thirdDoc = new TheDoctor("The Third Doctor", "Jon Pertwee", "Bill Burridge, Michael Pinder", "1970-1974", "Spearhead from Space");
+let fourthDoc = new TheDoctor("The Fourth Doctor", "Tom Baker", "Terry Walsh, Tim Bentinck", "1974-1981", "Planet of the Spiders");
+let fifthDoc = new TheDoctor("The Fifth Doctor", "Peter Davison", "null", "1981-1984", "Logopolis");
+let sixthDoc = new TheDoctor("The Sixth Doctor", "Collin Baker", "Sylvester McCoy, Chris Laurens", "1984-1986", "The Caves of Androzani");
+let seventhDoc = new TheDoctor("The Seventh Doctor", "Sylvester McCoy", "Matthew Sweet", "1987-1996", "Time and the Rani");
+let eighthDoc = new TheDoctor("The Eighth Doctor", "Paul McGann", "null", "1996, 2013", "Timewyrm: Revelation");
+let warDoc = new TheDoctor("The War Doctor", "John Hurt", "Paul McGann", "2013","The Name of the Doctor");
+let ninthDoc = new TheDoctor("The Ninth Doctor", "Christopher Eccleston", "null", "2005", "The Tomorrow Windows");
+let tenthDoc = new TheDoctor("The Tenth Doctor", "David Tennant", "Colum Regan", "2005-2010", "The Parting of the Ways");
+let eleventhDoc = new TheDoctor("The Eleventh Doctor", "Matt Smith", "Daniel Anthony, Andy Jones", "2010-2013", "The End of Time");
+let twelfthDoc = new TheDoctor("The Twelfth Doctor", "Peter Capaldi", "Paul Kasey", "2014-2018", "The Day of the Doctor");
+let thirteenthDoc = new TheDoctor("The Thirteenth Doctor", "Jodie Whittaker", "null", "2018-2022", "The Death List");
+
+
+function randomChosenDoc(){
+    let randomDocNum = Math.random();//I need 14 numbers, so 0 - 13
+    let randomDoc
+    if(randomDocNum === 0){
+        randomDoc = firstDoc;
+    }else if(randomDocNum === 1){
+        randomDoc = secondDoc;
+    }else if(randomDocNum === 2){
+        randomDoc = thirdDoc;
+    }else if(randomDocNum === 3){
+        randomDoc = fourthDoc;
+    }else if(randomDocNum === 4){
+        randomDoc = fifthDoc;
+    }else if(randomDocNum === 5){
+        randomDoc = sixthDoc;
+    }else if(randomDocNum === 6){
+        randomDoc = seventhDoc;
+    }else if(randomDocNum === 7){
+        randomDoc = eighthDoc;
+    }else if(randomDocNum === 8){
+        randomDoc = warDoc;
+    }else if(randomDocNum === 9){
+        randomDoc = ninthDoc;
+    }else if(randomDocNum === 10){
+        randomDoc = tenthDoc;
+    }else if(randomDocNum === 11){
+        randomDoc = eleventhDoc;
+    }else if(randomDocNum === 12){
+        randomDoc = twelfthDoc;
+    }else if(randomDocNum === 13){
+        randomDoc = thirteenthDoc;
+    }
+}
 //randomize the first doctor's episodes:
 // if(firstDoc.randomChosenEpisode() === 0){
 //     //then, append this specific youtube embed to the html video source tag:
