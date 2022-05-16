@@ -12,12 +12,13 @@
 //lets make an object of the Doctor!
 
 class TheDoctor{
-    constructor(docName, mainActor, altActor, yearsActive, firstApperance){
+    constructor(docName, mainActor, altActor, yearsActive, firstApperance, companions){
         this.docName = docName;
         this.mainActor = mainActor;
         this.altActor = altActor;
         this.yearsActive = yearsActive;
         this.firstApperance = firstApperance;
+        this.companions = companions;
     }
     randomChosenDocEpisode(){
         let randomEpisode = Math.random(); //just need 3 numbers/episodes, so 0 - 2
@@ -29,11 +30,11 @@ class TheDoctor{
     };
 }
 
-let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-1966","An Unearthly Child");
-let secondDoc = new TheDoctor("The Second Doctor", "Patrick Troughton", "Peter Diamond, Tom Laird", "1966-1969", "The Tenth Planet");
-let thirdDoc = new TheDoctor("The Third Doctor", "Jon Pertwee", "Bill Burridge, Michael Pinder", "1970-1974", "Spearhead from Space");
-let fourthDoc = new TheDoctor("The Fourth Doctor", "Tom Baker", "Terry Walsh, Tim Bentinck", "1974-1981", "Planet of the Spiders");
-let fifthDoc = new TheDoctor("The Fifth Doctor", "Peter Davison", "null", "1981-1984", "Logopolis");
+let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-1966","An Unearthly Child", "Badger, Butch, Susan Foreman, Gillian Who, John Who");
+let secondDoc = new TheDoctor("The Second Doctor", "Patrick Troughton", "Peter Diamond, Tom Laird", "1966-1969", "The Tenth Planet", "Barnabus, Gillian Who, John Who, Marmaduke, Serena");
+let thirdDoc = new TheDoctor("The Third Doctor", "Jon Pertwee", "Bill Burridge, Michael Pinder", "1970-1974", "Spearhead from Space", );
+let fourthDoc = new TheDoctor("The Fourth Doctor", "Tom Baker", "Terry Walsh, Tim Bentinck", "1974-1981", "Planet of the Spiders", "Adric, Andric, Ivan Asimoff, Captain, The TARDIS, Figment, K9(Marks I, II & III), Milena, Morris, Nyssa, Putta Pattershaun 5, Romana (I & II), Vesuvius");
+let fifthDoc = new TheDoctor("The Fifth Doctor", "Peter Davison", "null", "1981-1984", "Logopolis", "Abby, Adric, Alayna, Antranak, Brooke, Gravis, Kamelion, Lady of the MAnor, Nyssa, Melody Pond, River Song, Vislor Turlough, Iris Wildthyme, Zara");
 let sixthDoc = new TheDoctor("The Sixth Doctor", "Collin Baker", "Sylvester McCoy, Chris Laurens", "1984-1986", "The Caves of Androzani");
 let seventhDoc = new TheDoctor("The Seventh Doctor", "Sylvester McCoy", "Matthew Sweet", "1987-1996", "Time and the Rani");
 let eighthDoc = new TheDoctor("The Eighth Doctor", "Paul McGann", "null", "1996, 2013", "Timewyrm: Revelation");
@@ -43,6 +44,8 @@ let tenthDoc = new TheDoctor("The Tenth Doctor", "David Tennant", "Colum Regan",
 let eleventhDoc = new TheDoctor("The Eleventh Doctor", "Matt Smith", "Daniel Anthony, Andy Jones", "2010-2013", "The End of Time");
 let twelfthDoc = new TheDoctor("The Twelfth Doctor", "Peter Capaldi", "Paul Kasey", "2014-2018", "The Day of the Doctor");
 let thirteenthDoc = new TheDoctor("The Thirteenth Doctor", "Jodie Whittaker", "null", "2018-2022", "The Death List");
+let fourteenthDoc = new TheDoctor("The Fourteenth Doctor", "Ncuti Gatwa", "null", "2023 - ???", "60th Anniversary");
+let ruthDoc = new TheDoctor("The Fugative Doctor", "Jo Martin", "null", "2021", "Fugitive of the Judoon");
 
 
 function randomChosenDoc(){
