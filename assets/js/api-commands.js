@@ -34,11 +34,11 @@ let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-19
 // 1st Doc's Episodes:
 // 1. An Unearthly Child
 // 2. The Dalek Invasion Of Earth
-// 3.
+// 3. Galaxy 4
 let secondDoc = new TheDoctor("The Second Doctor", "Patrick Troughton", "Peter Diamond, Tom Laird", "1966-1969", "The Tenth Planet", "Barnabus, Gillian Who, John Who, Marmaduke, Serena");
 // 2nd Doc's Episodes:
 // 1. Tomb of the Cybermen
-// 2. 
+// 2. The Faceless Ones
 // 3.
 let thirdDoc = new TheDoctor("The Third Doctor", "Jon Pertwee", "Bill Burridge, Michael Pinder", "1970-1974", "Spearhead from Space", );
 // 3rd Doc's Episodes:
