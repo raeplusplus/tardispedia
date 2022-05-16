@@ -19,18 +19,42 @@ class TheDoctor{
         this.yearsActive = yearsActive;
         this.firstApperance = firstApperance;
         this.companions = companions;
+        // this.episodeNames = episodeNames, embedLink;
+        // this.docQuotes = docQuotes;
     }
     randomChosenDocEpisode(){
-        let randomEpisode = Math.random(); //just need 3 numbers/episodes, so 0 - 2
-        return randomEpisode;
+        let randomEpisode = Math.floor(Math.random() * 2); //just need 3 numbers/episodes, so 0 - 2
+        return this.episodeNames[randomEpisode];
     };
     randomChosenDocQuote(){
-        let randomQuote = Math.random();//just need 3 numbers/episodes, so 0 - 2
-        return randomQuote;
+        let randomQuote = Math.floor(Math.random() * 2);//just need 3 numbers/episodes, so 0 - 2
+        return this.docQuotes[randomQuote];
     };
 }
 
-let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-1966","An Unearthly Child", "Badger, Butch, Susan Foreman, Gillian Who, John Who");
+
+// randomEpiosode
+
+// // event listen
+
+// firstDoc  - added property array 
+// pick episode - firstDoc.arrayName[firstDoc.randomChosenDocEpisode()]
+
+// function{
+//     firstDoc.randomChosenDocEpisode() === 2; 
+
+// }
+
+
+
+
+// [[episode1, link]]
+
+// firstDoc.randomChosenDocEpisode()
+
+
+let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-1966","An Unearthly Child", "Badger, Butch, Susan Foreman, Gillian Who, John Who", );
+// let firstDocEpisodes = [[]]
 // 1st Doc's Episodes:
 // 1. An Unearthly Child
 // 2. The Dalek Invasion Of Earth
@@ -40,7 +64,7 @@ let secondDoc = new TheDoctor("The Second Doctor", "Patrick Troughton", "Peter D
 // 1. Tomb of the Cybermen
 // 2. The Faceless Ones
 // 3.
-let thirdDoc = new TheDoctor("The Third Doctor", "Jon Pertwee", "Bill Burridge, Michael Pinder", "1970-1974", "Spearhead from Space", );
+let thirdDoc = new TheDoctor("The Third Doctor", "Jon Pertwee", "Bill Burridge, Michael Pinder", "1970-1974", "Spearhead from Space");
 // 3rd Doc's Episodes:
 // 1. Spearhead from Space
 // 2. 
@@ -105,39 +129,39 @@ let ruthDoc = new TheDoctor("The Fugative Doctor", "Jo Martin", "null", "2021", 
 // 1. Fugitive of the Judoon
 
 
-function randomChosenDoc(){
-    let randomDocNum = Math.random();//I need 14 numbers, so 0 - 13
-    let randomDoc
-    if(randomDocNum === 0){
-        randomDoc = firstDoc;
-    }else if(randomDocNum === 1){
-        randomDoc = secondDoc;
-    }else if(randomDocNum === 2){
-        randomDoc = thirdDoc;
-    }else if(randomDocNum === 3){
-        randomDoc = fourthDoc;
-    }else if(randomDocNum === 4){
-        randomDoc = fifthDoc;
-    }else if(randomDocNum === 5){
-        randomDoc = sixthDoc;
-    }else if(randomDocNum === 6){
-        randomDoc = seventhDoc;
-    }else if(randomDocNum === 7){
-        randomDoc = eighthDoc;
-    }else if(randomDocNum === 8){
-        randomDoc = warDoc;
-    }else if(randomDocNum === 9){
-        randomDoc = ninthDoc;
-    }else if(randomDocNum === 10){
-        randomDoc = tenthDoc;
-    }else if(randomDocNum === 11){
-        randomDoc = eleventhDoc;
-    }else if(randomDocNum === 12){
-        randomDoc = twelfthDoc;
-    }else if(randomDocNum === 13){
-        randomDoc = thirteenthDoc;
-    }
-}
+// function randomChosenDoc(){
+//     let randomDocNum = Math.random();//I need 14 numbers, so 0 - 13
+//     let randomDoc
+//     if(randomDocNum === 0){
+//         randomDoc = firstDoc;
+//     }else if(randomDocNum === 1){
+//         randomDoc = secondDoc;
+//     }else if(randomDocNum === 2){
+//         randomDoc = thirdDoc;
+//     }else if(randomDocNum === 3){
+//         randomDoc = fourthDoc;
+//     }else if(randomDocNum === 4){
+//         randomDoc = fifthDoc;
+//     }else if(randomDocNum === 5){
+//         randomDoc = sixthDoc;
+//     }else if(randomDocNum === 6){
+//         randomDoc = seventhDoc;
+//     }else if(randomDocNum === 7){
+//         randomDoc = eighthDoc;
+//     }else if(randomDocNum === 8){
+//         randomDoc = warDoc;
+//     }else if(randomDocNum === 9){
+//         randomDoc = ninthDoc;
+//     }else if(randomDocNum === 10){
+//         randomDoc = tenthDoc;
+//     }else if(randomDocNum === 11){
+//         randomDoc = eleventhDoc;
+//     }else if(randomDocNum === 12){
+//         randomDoc = twelfthDoc;
+//     }else if(randomDocNum === 13){
+//         randomDoc = thirteenthDoc;
+//     }
+// }
 //randomize the first doctor's episodes:
 // if(firstDoc.randomChosenEpisode() === 0){
 //     //then, append this specific youtube embed to the html video source tag:
