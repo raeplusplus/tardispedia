@@ -41,106 +41,25 @@ if(randomDoc === 1){
 
 {//on doctor page, random episode button
 //first, find which doctor it is
+
+//lets make an object of the Doctor!
+
+let TheDoctor{
+
+}
+
 if(chosenDoctor === "The First Doctor"){
+    let randomChosenDocEpisode = Math.random() //0 - 2
     //then a list of the episodes the doctor appears in:
-    if(randomFirstDocEpisode === 0){
+    if(randomChosenDocEpisode === 0){
         //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
+        //This Episode is: The Dalek Invasion of Earth
+    }else if(randomChosenDocEpisode === 1){
         //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomFirstDocEpisode === 0){
+    }else if(randomChosenDocEpisode === 2){
         //then, append this specific youtube embed to the html video source tag:
     }
-
-}else if(chosenDoctor === "The Second Doctor"){
-    //then a list of the episodes the doctor appears in:
-    if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }else if(randomSecondDocEpisode === 0){
-        //then, append this specific youtube embed to the html video source tag:
-    }
-
+}
 }
 
 }
