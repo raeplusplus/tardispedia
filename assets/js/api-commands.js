@@ -31,21 +31,78 @@ class TheDoctor{
 }
 
 let firstDoc = new TheDoctor("The First Doctor", "William Hartnell","?","1963-1966","An Unearthly Child", "Badger, Butch, Susan Foreman, Gillian Who, John Who");
+// 1st Doc's Episodes:
+// 1. An Unearthly Child
+// 2. The Dalek Invasion Of Earth
+// 3.
 let secondDoc = new TheDoctor("The Second Doctor", "Patrick Troughton", "Peter Diamond, Tom Laird", "1966-1969", "The Tenth Planet", "Barnabus, Gillian Who, John Who, Marmaduke, Serena");
+// 2nd Doc's Episodes:
+// 1. Tomb of the Cybermen
+// 2. 
+// 3.
 let thirdDoc = new TheDoctor("The Third Doctor", "Jon Pertwee", "Bill Burridge, Michael Pinder", "1970-1974", "Spearhead from Space", );
+// 3rd Doc's Episodes:
+// 1. Spearhead from Space
+// 2. 
+// 3.
 let fourthDoc = new TheDoctor("The Fourth Doctor", "Tom Baker", "Terry Walsh, Tim Bentinck", "1974-1981", "Planet of the Spiders", "Adric, Andric, Ivan Asimoff, Captain, The TARDIS, Figment, K9(Marks I, II & III), Milena, Morris, Nyssa, Putta Pattershaun 5, Romana (I & II), Vesuvius");
+// 4th Doc's Episodes:
+// 1. Genesis of the Daleks
+// 2. 
+// 3.
 let fifthDoc = new TheDoctor("The Fifth Doctor", "Peter Davison", "null", "1981-1984", "Logopolis", "Abby, Adric, Alayna, Antranak, Brooke, Gravis, Kamelion, Lady of the MAnor, Nyssa, Melody Pond, River Song, Vislor Turlough, Iris Wildthyme, Zara");
+// 5th Doc's Episodes:
+// 1. Earthshock
+// 2. 
+// 3.
 let sixthDoc = new TheDoctor("The Sixth Doctor", "Collin Baker", "Sylvester McCoy, Chris Laurens", "1984-1986", "The Caves of Androzani");
+// 6th Doc's Episodes:
+// 1. The Two Doctors
+// 2. 
+// 3.
 let seventhDoc = new TheDoctor("The Seventh Doctor", "Sylvester McCoy", "Matthew Sweet", "1987-1996", "Time and the Rani");
+// 7th Doc's Episodes:
+// 1. Remembrance of the Daleks
+// 2. 
+// 3.
 let eighthDoc = new TheDoctor("The Eighth Doctor", "Paul McGann", "null", "1996, 2013", "Timewyrm: Revelation");
+// 8th Doc's Episodes:
+// 1. Night of the Doctor
+// 2. Doctor Who the Movie
+// 3. Timewyrm: Revelation
 let warDoc = new TheDoctor("The War Doctor", "John Hurt", "Paul McGann", "2013","The Name of the Doctor");
+// War Doc's Episodes:
+// Day of the Doctor
 let ninthDoc = new TheDoctor("The Ninth Doctor", "Christopher Eccleston", "null", "2005", "The Tomorrow Windows");
+// 9th Doc's Episodes:
+// 1. The Empty Child
+// 2. The Doctor Dances
+// 3. The End Of Earth??
 let tenthDoc = new TheDoctor("The Tenth Doctor", "David Tennant", "Colum Regan", "2005-2010", "The Parting of the Ways");
+// 10th Doc's Episodes:
+// 1. Midnight
+// 2. Blink
+// 3.
 let eleventhDoc = new TheDoctor("The Eleventh Doctor", "Matt Smith", "Daniel Anthony, Andy Jones", "2010-2013", "The End of Time");
+// 11th Doc's Episodes:
+// 1. Vincent and the Doctor
+// 2. 
+// 3.
 let twelfthDoc = new TheDoctor("The Twelfth Doctor", "Peter Capaldi", "Paul Kasey", "2014-2018", "The Day of the Doctor");
+// 12th Doc's Episodes:
+// 1. Heaven Sent
+// 2. 
+// 3.
 let thirteenthDoc = new TheDoctor("The Thirteenth Doctor", "Jodie Whittaker", "null", "2018-2022", "The Death List");
+// 13th Doc's Episodes:
+// 1. 
+// 2. 
+// 3.
 let fourteenthDoc = new TheDoctor("The Fourteenth Doctor", "Ncuti Gatwa", "null", "2023 - ???", "60th Anniversary");
+// 1no episodes, yet - maybe an announcement video?
 let ruthDoc = new TheDoctor("The Fugative Doctor", "Jo Martin", "null", "2021", "Fugitive of the Judoon");
+// 1st Doc's Episodes:
+// 1. Fugitive of the Judoon
 
 
 function randomChosenDoc(){
