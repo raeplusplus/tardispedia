@@ -23,11 +23,13 @@ class TheDoctor{
         // this.docQuotes = docQuotes;
     }
     randomChosenDocEpisode(){
-        let randomEpisode = Math.floor(Math.random() * 2); //just need 3 numbers/episodes, so 0 - 2
+        let randomEpisode = Math.floor(Math.random() * 2); 
+        //just need 3 numbers/episodes, so 0 - 2
         return this.episodeNames[randomEpisode];
     };
     randomChosenDocQuote(){
-        let randomQuote = Math.floor(Math.random() * 2);//just need 3 numbers/episodes, so 0 - 2
+        let randomQuote = Math.floor(Math.random() * 2);
+        //just need 3 numbers/episodes, so 0 - 2
         return this.docQuotes[randomQuote];
     };
 }
