@@ -1,39 +1,29 @@
 
-
 document.querySelector('#randomDoctorButton').addEventListener('click', apiRequest)
 async function apiRequest(){
     const doctorName = 
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-document.querySelector('#randomEpisodeButton').addEventListener('click', randomChosenDoctor)
-function randomChosenDoctor(theDoctor[doctorName]){
+// document.querySelector('#randomEpisodeButton').addEventListener('click', randomChosenDoctor)
+function randomChosenDoctor(){
     console.log('hey, does this work, random doc?')
-    let preBuffer = [];
+    let docRegen = [];
     for(let i = 0; i < theDoctor[doctorName]; i++){
-        preBuffer[i] = newDoctor();
-        preBuffer[i].docName = theDoctor[i].docName;
-        preBuffer[i].mainActor = theDoctor[i].mainActor;
-        preBuffer[i].altActor = theDoctor[i].altActor;
-        preBuffer[i].yearsActive = theDoctor[i].yearsActive;
-        preBuffer[i].firstAppearance = theDoctor[i].firstAppearance;
-        preBuffer[i].companions = theDoctor[i].companions;
+        docRegen[i] = newDoctor();
+        docRegen[i].docName = theDoctor[i].docName;
+       
+        document.querySelector('doctorName').innerText = preBuffer[i].docName
+        docRegen[i].mainActor = theDoctor[i].mainActor;
+        docRegen[i].altActor = theDoctor[i].altActor;
+        docRegen[i].yearsActive = theDoctor[i].yearsActive;
+        docRegen[i].firstAppearance = theDoctor[i].firstAppearance;
+        docRegen[i].companions = theDoctor[i].companions;
     }
-    let newDoctor = getRandomInt(0, preBuffer.length - 1);
+    let newDoctor = getRandomInt(0, docRegen.length - 1);
     let nd = newDoctor.length;
     let doctorName = document.getElementById('doctorName')
+    doctorName.appendChild(docRegen[i].docName)
     // let dn = doctorName.length;
     let doctorImage = document.getElementById('doctorImage')
     // let di = doctorImage.length;
