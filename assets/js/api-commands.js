@@ -13,7 +13,7 @@ async function apiRequest(){
     try{
         const response = await fetch(`https://tardispedia-api.herokuapp.com/api/${doctorNum}`)
         const data = await response.json()
-        console.log(doctorNum)
+        
         console.log(data)
         document.getElementById('doctorName').innerText = data.name
         document.getElementById('mainActor').innerText = data.mainActor
