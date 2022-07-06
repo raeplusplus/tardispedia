@@ -1,33 +1,34 @@
 # Tardis-pedia!
-A reference for Doctor Who Episodes & data using the catalogopolis API 
+TardisPedia uses my own API to randomly generate your new faveorite Doctor iteration!
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://tardispedia.netlify.app/
 
-![alt tag](http://placecorgi.com/1200/650)
+
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript, MongoDB, Express.js, Node.js
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+First, I created the client side site. I originally had listed out all of the doctors in order and the idea was for a click on the button below each doctor would make a call to my API for that specific Doctor. However, I thought it would be more interesting to have the Doctor's info randomly generated - because why just manually pick your favorite Doctor when you can have math do it for you? 
+
+I gathered data from various Doctor Who wiki's and sources (on their companions, years active, any alternate actors, first episode they appeared in, etc) and compiled it all together into my MongoDB collection. From there, I connected the database to the backend of my API that's hosted on Heroku. I let my client back end randomly generate a number on the "Random Doctor" button click and from there it picks a new Doctor!
 
 ## Optimizations
-*(optional)*
 
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+* Add in a randomization button for the quotes and episode clips of the specific Doctors
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned that sometimes even tasks that seem like they should be a simple fix can require a lot of research and implementation to be solved and that the same is true vice versa.
 
 ## Examples:
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
+**Federation Field Guide To Aliens:** https://github.com/raeplusplus/star-trek-app
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+**Yggdrasil:** https://github.com/raeplusplus/Yggdrasil
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+
 
 
 
