@@ -5,7 +5,7 @@ randomNum = Math.floor(Math.random() * (max - min + 1)) + min;
 return randomNum;
 } 
 
-document.getElementById('#randomDoctorButton').addEventListener('click', apiRequest)
+document.getElementById('randomDoctorButton').addEventListener('click', apiRequest)
 async function apiRequest(){
     // let randomDoc = getRandomInt(0, 12).value
     const doctorNum = getRandomInt(0, 12)
