@@ -1,8 +1,42 @@
 
 document.querySelector('#randomDoctorButton').addEventListener('click', apiRequest)
 async function apiRequest(){
-    const doctorName = 
+    const doctorName = randomChosenDoctor().value
+    try{
+        const response = await fetch(`https://tardispedia-api.herokuapp.com/api/${doctorName}`)
+        const data = await response.json()
+
+        console.log(data)
+        document.getElementById('doctorName').innerText = data.name
+        document.getElementById('mainActor').innerText = data.mainActor
+        document.getElementById('altActor').innerText = data.altActor
+        document.getElementById('firstAppearance').innerText = data.firstAppearance
+        document.getElementById('yearsActive').innerText = data.yearsActive
+        document.getElementById('quote').innerText = data.quote
+        document.getElementById('doctorImage').src = data.image
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // document.querySelector('#randomEpisodeButton').addEventListener('click', randomChosenDoctor)
