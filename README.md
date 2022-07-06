@@ -1,4 +1,4 @@
-# Tardis-pedia!
+# TARDIS-Pedia!
 TardisPedia uses my own API to randomly generate your new faveorite Doctor iteration!
 
 **Link to project:** https://tardispedia.netlify.app/
